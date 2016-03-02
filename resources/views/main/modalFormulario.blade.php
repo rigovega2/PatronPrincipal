@@ -27,8 +27,9 @@
 {!!Form::close()!!}
 
 
+
 <script type="text/javascript">
-  
+
 
   var modal = $('#NombreDelModal');
 
