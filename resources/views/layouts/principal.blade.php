@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Vocabulario</title>
+    <title>Nombre Aplicacion</title>
 
     <!-- Bootstrap Core CSS -->
     {!!Html::style('css/bootstrap.min.css')!!}
@@ -84,7 +84,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Vocabulario</a>
+                <a class="navbar-brand" href="/">Nombre Aplicacion</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -98,7 +98,7 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        @include('layouts.menulateral')
+                        @include('layouts.menuside')
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

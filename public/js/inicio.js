@@ -31,7 +31,6 @@ function handleAjaxModal() {
                         modalBs.find(".modal-dialog").removeClass("modal-lg");
                     }
 
-                    
                     break;
 
                 case "error":
@@ -45,4 +44,25 @@ function handleAjaxModal() {
         return false;
     });
 }
-    
+
+
+function EventoFormularioModal(modal, onSuccess) {
+    modal.find('form').submit(function () {
+        $.ajax({
+            url: this.action,
+            type: this.method,
+            data: $(this).serialize(),
+            success: function (result) {
+                onSuccess(result);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                var message = "Error de ejecución: " + textStatus + " " + errorThrown;
+                $.msgbox(message, { type: 'error' });
+                console.log("Error: ");
+            }
+        });
+        return false;
+    });
+}
+
+
