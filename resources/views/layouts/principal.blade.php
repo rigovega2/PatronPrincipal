@@ -11,39 +11,27 @@
     <meta name="author" content="">
 
     <title>Nombre Aplicacion</title>
-
     <!-- Bootstrap Core CSS -->
-    {!!Html::style('css/bootstrap.min.css')!!}
-    
+    {!!Html::style('css/bootstrap.min.css')!!}  
     <!-- MetisMenu CSS -->
     {!!Html::style('css/metisMenu.min.css')!!}
-
     <!-- Timeline CSS -->
-    {!!Html::style('css/timeline.css')!!}
-    
+    {!!Html::style('css/timeline.css')!!} 
     <!-- Custom CSS -->
     {!!Html::style('css/sb-admin-2.css')!!}
-
     <!-- Custom Fonts -->
     {!!Html::style('css/font-awesome.min.css')!!}
-    
     <!-- Kendo-->
     {!!Html::style('css/kendo/kendo.common.min.css')!!}
     {!!Html::style('css/kendo/kendo.bootstrap.min.css')!!}
-    
-
     <!-- jQuery -->
     {!!Html::script('js/jquery.min.js')!!}
-
     <!-- Bootstrap Core JavaScript -->
     {!!Html::script('js/bootstrap.min.js')!!}
-
     <!-- Metis Menu Plugin JavaScript -->
     {!!Html::script('js/metisMenu.min.js')!!}
-    
     <!-- Morris Charts JavaScript -->
     {!!Html::script('js/raphael-min.js')!!}
-
     <!-- Custom Theme JavaScript -->
     {!!Html::script('js/sb-admin-2.js')!!}
      
