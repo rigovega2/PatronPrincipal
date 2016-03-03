@@ -34,7 +34,7 @@ class mainController extends Controller
      * 
      * @return retorna la vista que sera cargada en el modal
      */
-    public function modalformulario()
+    public function getModalFormulario()
     {
         return view('main.modalformulario');
     }
@@ -47,12 +47,17 @@ class mainController extends Controller
      * @return $restult -> json que contiene el estatus de la operacion, mensaje opcional, y los datos de que se deseen regresar
      */
 
-    public function prosesamodalformulario(Request $rq)
+    public function postMamodalFormulario(Request $rq)
     {
         $result['status'] = true;
         $result['mensaje'] = 'llego bien';
         return json_encode($result);
     }
+
+    /**
+     * [descricion de lo que hace la funcio]
+     * [parametros que reciven la funcion y descricion]
+     */
 
     /**
      * Show the form for creating a new resource.
