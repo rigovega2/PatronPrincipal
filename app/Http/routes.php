@@ -15,9 +15,6 @@
 Route::get('main/modal', 'mainController@index');
 
 Route::get('main/modaltest', 'mainController@modaltest');
-Route::get('La wea csmica');
 Route::get('main/modalformulario', 'mainController@getModalFormulario');
 
 Route::post('main/modalformulario', 'mainController@postMamodalFormulario');
-Route::post('maini', 'mainController@create');
-Route::get('La wea csmica2');
